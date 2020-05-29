@@ -11,3 +11,8 @@
 **Wood solid**, As fast as Mongo Java driver. Open source, fully tested & made of rock solid libraries.
 
 Documentation available at <a href="http://www.jongo.org/">jongo.org</a>
+
+
+### How to compile:
+
+	mvn clean package -Dmaven.compiler.fork=true -Dmaven.compiler.executable=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin/javac -Dmaven.javadoc.executable=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin/javadoc
